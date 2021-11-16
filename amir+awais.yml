@@ -1,0 +1,9 @@
+---
+- name: awx practice 
+  hosts: all
+  tasks:
+  - name: adding awais as a user
+    user:
+     name: awais
+     state: present 	  
+  
